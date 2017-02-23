@@ -7,7 +7,7 @@ var isMatch = function(cardsInPlay) {
 	if (cardsInPlay[0]===cardsInPlay[1]) {
 		document.getElementById('result').innerHTML = "You found a match!";
 	} else {
-		document.getElementById('result').innerHTML = "Sorry, try again";
+		document.getElementById('result').innerHTML = "NOPE sorry!";
 	}
 }
 var cardElements = [];
