@@ -46,7 +46,7 @@ var resetGame = function() {
 
 var isTwoCards = function() {
 
-	// if before psuhing, 2 cards have alerady been selected so the game is over
+	// if before pushing, 2 cards have already been selected so the game is over
 	if (cardsInPlay.length === 2) {
 		resetGame();
 		return
